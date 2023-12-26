@@ -1,8 +1,7 @@
 
 import './App.css'
 import Alert from './Component/ui/Alert/Alert'
-
-import {Ban } from 'lucide-react';
+import { BellRing, Info, MailCheck, ShieldAlert } from 'lucide-react';
 
 
 function App() {
@@ -10,23 +9,23 @@ function App() {
   return (
     <>
      <Alert type='alert-error'
-      icon={<Ban />} 
+      icon={<ShieldAlert />} 
       title='Alert Title From App'
       descreption='Lorem, aipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur, ab excepturi, fuga facere adipisci recusandae minima vitae velit atque ullam ut quam error itaque iure quod nisi eos reprehenderit!'
       />
      <Alert type='alert-info'
-      icon={<Ban />} 
+      icon={<Info />} 
       title='Alert Title From App'
       descreption='Lorem, aipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur, ab excepturi, fuga facere adipisci recusandae minima vitae velit atque ullam ut quam error itaque iure quod nisi eos reprehenderit!'
       />
      <Alert type='alert-success'
-      icon={<Ban />} 
+      icon={<MailCheck />} 
       title='Alert Title From App'
       descreption='Lorem, aipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur, ab excepturi, fuga facere adipisci recusandae minima vitae velit atque ullam ut quam error itaque iure quod nisi eos reprehenderit!'
       />
       
      <Alert type='alert-default'
-      icon={<Ban />} 
+      icon={<BellRing  />} 
       title='Alert Title From App'
       children={
         <>
