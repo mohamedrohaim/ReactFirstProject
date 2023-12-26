@@ -1,0 +1,43 @@
+
+//** Error
+$borderColor:rgpa(255,25,0,0.0322);
+$errorBg:rgb(399 29 29 /15%);
+$errorColor:#ef8d8dfa;
+.alert-danger{
+    border:2px dotted teal;
+    padding: 5px;
+    background-color: $errorBg;
+    color: #ef8d8dfa;
+
+    .alert-title{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+    }
+    .alert-title svg{
+        margin-right: 0.5rem;
+    }
+    .remove-icon svg{
+        color: aliceblue;
+        border: 1px solid white;
+        cursor: pointer;
+       // height: 18px;
+        //width: 18px;
+
+    }
+    .alert-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    p{
+        margin-top: 1.2rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.2rem;
+
+    }
+
+}
